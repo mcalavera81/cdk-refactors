@@ -1,0 +1,1 @@
+# modularizing-cdk-stack-patterns
