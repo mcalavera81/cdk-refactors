@@ -1,0 +1,42 @@
+
+npm install -g npm-check-updates
+ncu -u
+npm update
+npm install
+
+
+1) cdk.json - "app": "npx ts-node bin/full-stack.ts"
+
+2) bin - rename master-full-stack-single.ts to full-stack.ts
+
+3) create directories under lib
+	/stacks/database
+	/stacks/s3
+
+4) create database.ts and s3.ts
+
+5) update full-stack.ts
+
+6) create cdn stack
+
+7) update full-stack.ts
+
+8) Expose needed objects from source stack - s3 buckets as public members
+
+9) Updated the dependent constructor to receive the property
+
+10) pass the public property when creating the stack object
+
+11) Update all dependent stack contructors to recive stack objects or needed properties. 
+
+12) Create any public members needed to share properties.
+
+13) Pass properties or stacks to instantiated objects
+
+14) Create a new SSM Seeder directory and typescript file
+
+15) Seed all needed demo parameters to the parameter store
+
+16) Build property objects - from SSM Parameters
+
+17) Build Class/Stack interfaces
